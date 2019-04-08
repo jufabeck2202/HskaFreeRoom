@@ -1,0 +1,26 @@
+{
+  "name": "freeRoom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Julian Beck",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "repository": "https://github.com/jufabeck2202",
+  "homepage": "https://github.com/jufabeck2202/"
+}
