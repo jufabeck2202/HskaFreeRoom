@@ -1,44 +1,25 @@
-# name [![Build Status]
+# name HskaFreeRoom
 
-> description
+> get current free rooms in hska
 
 
 ## Install
 
 ```
-$ npm install ytplaylist-dl
+$ npm install -g  hskafreeroom
 ```
 
 
 ## Usage
 ```js
-
+freeRoom
 ```
 Text
-
-## API
-
-### module(param, param )
-
-Returns a `Promise` that .....
-
-
-#### param
-
-Type: `string`
-
-Text
-
-#### param
-
-Type: `string`
-
-text
 
 
 ## Related
 
-- [Julian Beck](https://github.com/jufabeck2202) - cool person
+- [Julian Beck](https://github.com/jufabeck2202)
 
 ## License
 

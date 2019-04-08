@@ -1,11 +1,8 @@
 {
-  "name": "freeRoom",
+  "name": "hskafreeroom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "author": "Julian Beck",
   "license": "MIT",
   "dependencies": {
@@ -20,7 +17,10 @@
   "files": [
     "index.js"
   ],
+  "bin": {
+    "freeRoom": "./index.js"
+  },
   "keywords": [],
-  "repository": "https://github.com/jufabeck2202",
-  "homepage": "https://github.com/jufabeck2202/"
+  "repository": "https://github.com/jufabeck2202/HskaFreeRoom",
+  "homepage": "https://github.com/jufabeck2202/HskaFreeRoom"
 }
