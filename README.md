@@ -1,4 +1,4 @@
-# name HskaFreeRoom
+# HskaFreeRoom
 
 > get current free rooms in hska
 
@@ -22,7 +22,7 @@ $ npm install -g  hskafreeroom
 ```js
 freeRoom
 ```
-Text
+gives you the current free rooms.
 
 
 ## Related
