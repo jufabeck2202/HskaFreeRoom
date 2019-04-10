@@ -12,10 +12,6 @@
 ```
 $ npm install -g  hskafreeroom
 ```
-### Install with docker
-```
-docker build  -t jufabeck2202/hskafreeroom .
-```
 
 ## Usage
 ```js
@@ -23,9 +19,9 @@ freeRoom
 ```
 gives you the current free rooms.
 
-## Docker Image Usage
+## Use with docker
 ```
-docker run jufabeck2202/hskafreeroom
+docker run kickbeak/hskafreeroom
 ```
 
 ## Related
