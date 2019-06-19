@@ -13,10 +13,15 @@ const cli = meow(`
 
 });
 (async () => {
-  console.log(chalk.blue.bold("current free rooms:"))
 
   let currentDay = Number(moment(Date.now()).day())-1;
   let midnight = moment(`${moment(Date.now()).month()+1} ${moment(Date.now()).date()} 00:00:00`, "MM DD hh:mm:ss") 
+  if (currentDay > 4){
+    console.log(chalk.blue.bold("Today are no lectures today, showing lectures for Monday:"))
+    currendDay = 0;
+  }else{
+    console.log(chalk.blue.bold("current free rooms:"))
+  }
   let roomsToday = await axios.get(`http://www.iwi.hs-karlsruhe.de/Intranetaccess/REST/unoccupiedrooms/lecturehalls/${currentDay}?suppress_error=false`);
   roomsToday.data.freeRooms.forEach(room => {
     let startTime = midnight.clone()
