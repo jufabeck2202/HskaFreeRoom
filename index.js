@@ -17,7 +17,7 @@ const cli = meow(`
 
   let currentDay = Number(moment(Date.now()).day())-1;
   let midnight = moment(`${moment(Date.now()).month()+1} ${moment(Date.now()).date()} 00:00:00`, "MM DD hh:mm:ss") 
-  let roomsToday = await axios.get(`https://www.iwi.hs-karlsruhe.de/Intranetaccess/REST/unoccupiedrooms/lecturehalls/${currentDay}?suppress_error=false`);
+  let roomsToday = await axios.get(`http://www.iwi.hs-karlsruhe.de/Intranetaccess/REST/unoccupiedrooms/lecturehalls/${currentDay}?suppress_error=false`);
   roomsToday.data.freeRooms.forEach(room => {
     let startTime = midnight.clone()
     let endTime = midnight.clone()
