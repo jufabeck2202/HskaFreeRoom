@@ -6,7 +6,7 @@
   "author": "Julian Beck",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chalk": "^2.4.2",
     "meow": "^5.0.0",
     "moment": "^2.24.0"
